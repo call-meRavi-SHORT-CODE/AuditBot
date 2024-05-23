@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Hi there!",
+        "Greetings!",
+        "Hey, how are you?",
+        "What's up?",
+        "Howdy!",
+        "Good morning!"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your audit needs today?",
+        "Hi there! What audit-related queries can I help you with?",
+        "Greetings! How can I support your auditing process?",
+        "Hey! Need help with any audit information or assistance?"
+      ]
+    },{
+      "tag": "send_audit_details",
+      "patterns": [
+        "Send through mail",
+        "Can you email me the details?",
+        "Please send details to my email",
+        "Send audit report to my email",
+        "I need the information sent to my email"
+      ],
+      "responses": [
+        "Sure, I will send the details to your email. Could you please confirm your email address?",
+        "I will email the details to you shortly. What is your email address?",
+        "Sending the information to your email now. Please check your inbox.",
+        "I can send the details to your email. Could you provide your email address?"
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Thank You",
+        "Catch you later",
+        "Until next time",
+        "Have a great day",
+        "Farewell",
+        "So long",
+        "Bye for now"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out for any audit assistance.",
+        "See you later! Have a great day.",
+        "Farewell! Don't hesitate to contact me for any audit-related help."
+      ]
+    },
+    {
+      "tag": "audit_assistance",
+      "patterns": [
+        "Can you help me with my audit?",
+        "I need assistance with an audit",
+        "How do I prepare for an audit?",
+        "What documents do I need for an audit?",
+        "Can you guide me through the audit process?",
+        "I have questions about my audit",
+        "How do I start an audit?"
+      ],
+      "responses": [
+        "Of course! I can help you with your audit. What specific assistance do you need?",
+        "Sure! What part of the audit process do you need help with?",
+        "I can guide you through the audit process. Let's start with what documents you have.",
+        "Preparing for an audit can be overwhelming. I'm here to help you with each step."
+      ]
+    },
+    {
+      "tag": "audit_status",
+      "patterns": [
+        "What's the status of my audit?",
+        "Can you check the progress of my audit?",
+        "How far along is my audit?",
+        "Update me on my audit",
+        "I need to know the current status of my audit"
+      ],
+      "responses": [
+        "Let me check the status of your audit. One moment, please.",
+        "I'll look into the progress of your audit. Please hold on.",
+        "Checking the current status of your audit. This will just take a moment.",
+        "I will update you on the status of your audit shortly."
+      ]
+    },
+    {
+      "tag": "contact_auditor",
+      "patterns": [
+        "How can I contact my auditor?",
+        "Who is my auditor?",
+        "Can you provide the auditor's contact details?",
+        "I need to speak with my auditor",
+        "What is the best way to reach my auditor?"
+      ],
+      "responses": [
+        "You can contact your auditor at Phone: 9944536868 . Need any specific help? I can also send the details to your email.",
+        "Your auditor is Ravikrishna. You can reach them at Phone: 9944536868. I can also send the details to your email.",
+        "Here are the contact details for your auditor: Phone: 9944536868. Need anything else? I can also send the details to your email.",
+        "To speak with your auditor, you can call or email them at Phone: 9944536868 , emailid: ravikrishna@gmail.com. I can also send the details to your email."
+      ]
+    },
+    {
+      "tag": "audit_report",
+      "patterns": [
+        "Can I get my audit report?",
+        "Where can I find my audit report?",
+        "I need my audit report",
+        "How do I access my audit report?",
+        "Can you send me my audit report?"
+      ],
+      "responses": [
+        "Sure, I can help you get your audit report. How would you like to receive it?",
+        "You can access your audit report through our portal. Do you need the link?",
+        "I will send you your audit report. Can you confirm your email address?",
+        "I can provide you with your audit report. Do you need any specific sections?"
+      ]
+    }
+  ]
+}

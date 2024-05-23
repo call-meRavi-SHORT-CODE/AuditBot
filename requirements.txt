@@ -1,0 +1,5 @@
+Gunicorn
+Torch
+nltk
+numpy
+streamlit == 1.33.0
